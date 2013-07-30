@@ -1,0 +1,91 @@
+.page, .page-body {
+	margin: 0;
+	padding: 0;
+	}
+
+/* ==== chrome-logo ==== */
+.chrome-logo{
+	background: -webkit-linear-gradient(210deg, transparent 66.4%, #4DB849 33%, #328440),
+				-webkit-linear-gradient(90deg, transparent 72%, #D01D21 33%, #F06B59),
+				-webkit-linear-gradient(150deg, transparent 60%, #D01D21 33%, #D01D21),
+				-webkit-linear-gradient(330deg, transparent 66.45%, #FCD209 33%, #D49B28),
+				-webkit-linear-gradient(37deg, transparent 58%, #FCD209 33%, #FCD209),
+				-webkit-linear-gradient(280deg, transparent 58%, #4DB849 33%, #4DB849),
+				-webkit-linear-gradient(150deg, transparent 54%, #D01D21 33%, #D01D21);
+	background: -moz-linear-gradient(210deg, transparent 66.4%, #4DB849 33%, #328440),
+				-moz-linear-gradient(90deg, transparent 72%, #D01D21 33%, #F06B59)  , 
+				-moz-linear-gradient(150deg, transparent 60%, #D01D21 33%, #D01D21) ,
+				-moz-linear-gradient(330deg, transparent 66.45%, #FCD209 33%, #D49B28),
+				-moz-linear-gradient(37deg, transparent 58%, #FCD209 33%, #FCD209),
+				-moz-linear-gradient(280deg, transparent 58%, #4DB849 33%, #4DB849),
+				-moz-linear-gradient(150deg, transparent 54%, #D01D21 33%, #D01D21);
+	background: linear-gradient(240deg, transparent 66.4%, #4DB849 33%, #328440),
+				linear-gradient(0deg, transparent 72%, #D01D21 33%, #F06B59) , 
+				linear-gradient(-60deg, transparent 60%, #D01D21 33%, #D01D21) ,
+				linear-gradient(120deg, transparent 66.45%, #FCD209 33%, #D49B28),
+				linear-gradient(53deg, transparent 58%, #FCD209 33%, #FCD209),
+				linear-gradient(170deg, transparent 58%, #4DB849 33%, #4DB849),
+				linear-gradient(-60deg, transparent 54%, #D01D21 33%, #D01D21);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	display: block;
+	height: 450px;
+	left: 50%;
+	margin: -225px 0 0 -225px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	width: 450px;
+	}
+ 
+
+.chrome-logo:after{
+	background: -webkit-radial-gradient(center -10%, 100% 100%, #7eb2df 10%, #0d5a94 110%);
+	background: -moz-radial-gradient(center 0%, circle cover, #7eb2df 10%, #0d5a94 110%);
+	background: radial-gradient( circle at center 0%, #7eb2df 10%, #0d5a94 110%);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 15px solid #fff;
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.6);
+	content: '';
+	display: block;
+	height: 171px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 171px;
+	} 
+
+.chrome-logo:before{
+	background: -webkit-linear-gradient(#face0a, #f7cb0c);
+	background: -moz-linear-gradient(#face0a, #f7cb0c); 
+	background: linear-gradient(#face0a, #f7cb0c);
+	content: '';
+	display: block;
+	height: 38px;
+	left: 218px;
+	position: absolute;
+	top: 423px;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	transform: rotate(30deg);
+	width: 25px;
+	}
+
+.chrome-logo:hover {
+	-webkit-transform: rotate(-720deg) scale(.9);
+	-moz-transform: rotate(-720deg) scale(.9);
+	transform: rotate(-720deg) scale(.9);
+	}
+/*// ==== chrome-logo ==== */
